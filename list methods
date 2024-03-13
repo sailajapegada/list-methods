@@ -1,0 +1,11 @@
+lst=[]
+for i in range(10):
+  ele=int(input(F" enter the element{i+1}:"))  
+  lst.append(ele)
+print("\n list",lst)
+lst=list(set(lst))
+print("\n Removing duplicates List:",lst)
+lst.sort()
+print("\n sorted list:",lst)
+lst.sort(reverse=True)
+print("\n decending sorted list:",lst)
